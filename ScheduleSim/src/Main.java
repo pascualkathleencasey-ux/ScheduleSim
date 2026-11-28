@@ -10,8 +10,10 @@ public class Main {
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         } catch (Exception ignored) {
+          // hi
             // The default look and feel is fine if the system one is unavailable.
         }
+        
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
